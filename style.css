@@ -1,0 +1,130 @@
+/*::root{
+  box-sizing: border-box;  
+}
+*, ::before,::after{
+    margin: 0;padding: 0; box-sizing: inherit
+}
+.navbar .links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color:#000;
+    position: relative;
+    height: 100%; 
+}
+.links li a{
+    color: white;
+    text-decoration: none;
+}
+
+.links .logo{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    top: 5px;
+    padding: 0 10px;
+    
+}
+
+.links .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+*/
+header{
+  
+    background-size: auto;
+
+    color: black;
+    padding: 0px;
+
+}
+
+body{
+    background: ;
+    padding: 0em 0em 3em 0em;
+}
+header i {
+    font-size: 2em;
+}
+
+
+#content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding:  0px 0px 0px 0px;
+}
+
+#content-img{
+    color: white;
+    width: 300px;
+    margin: auto;
+    margin: 10px;
+    text-align: center;
+    margin-top: 10px;
+    background: grey;
+}
+
+#img{
+    width: 100%;
+
+}
+#content-img > label{
+    font-size: 18px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    background: #9a9a7a;
+    border-style: none;
+}
+footer i{
+    font-size: 2em;
+    margin: 1em;
+    background: white;
+    color: black;
+}
+
+.Amatista{
+    margin: 1em;
+    background: hsla(282, 39%, 62%, 1);
+    font:bold 20px Verdana;
+    text-decoration: none;
+    color:white;
+    border: 4px solid hsla(282, 39%, 62%, 1);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.esmeralda {
+    margin: 1em;
+    background:rgb(102, 214, 141) ;
+    font:bold 20px Verdana;
+    text-decoration: none;
+    color:white;
+    border: 4px solid rgb(102, 214, 141);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.cielo {
+    margin: 1em;
+    background: hsl(204, 70%, 62%);
+    font:bold 20px Verdana;
+    text-decoration: none;
+    color:white;
+    border: 4px solid hsl(204, 70%, 62%);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+
+.img-fluid{
+    color:white;
+}
